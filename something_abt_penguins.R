@@ -4,4 +4,3 @@ penglings <- penguins |>
 
 i_cant_code <- penglings |>
   group_by(sex)
-mn   
