@@ -4,6 +4,6 @@ penglings <- penguins |>
 
 i_cant_code <- penglings |>
   ggplot()+
-  geom_point(aes(x= bill_len, y = bill_dep)) +
-theme_minimal
+  geom_point(aes(x= bill_len, y = bill_dep)) + 
+  theme_classic()
 i_cant_code
