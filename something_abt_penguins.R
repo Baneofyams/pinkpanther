@@ -3,4 +3,6 @@ penglings <- penguins |>
   drop_na()
 
 i_cant_code <- penglings |>
-  group_by(sex)
+  ggplot()+
+  geom_point(aes(x= bill_len, y = bill_dep))
+i_cant_code
